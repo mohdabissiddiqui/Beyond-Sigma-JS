@@ -43,15 +43,54 @@ names.shift();
 
 // Looping through an array
 
-let arr = [10,20,30,40,50]
+// let arr = [10,20,30,40,50]
 
 // for(let i = 0; i<arr.length;i++){
 //     console.log(arr[i]);
 // }
 // Finding Even Numbers in Array
-for(let i = 0;i<arr.length;i++){
-    arr[i];
-    if(arr[i]%2===0){
-        console.log(arr[i]);
-    }
-}
+// for(let i = 0;i<arr.length;i++){
+//     arr[i];
+//     if(arr[i]%2===0){
+//         console.log(arr[i]);
+//     }
+// }
+
+// Array Methods
+
+// Mutable & Non - Mutable Arrays
+
+// Mutable Array - Original array change karta hai 
+
+// push()
+// pop()
+// shift()
+// unshift()
+// splice()
+// slice()
+// sort()
+// reverse()
+
+// Non - Mutable Array - New array banata hai original array change nahi karta
+
+// map()
+// filter()
+// concat()
+// flat()
+// slice()
+
+// Single Value return karta hai.
+
+// find() , findindex(), include(), join(), reduce()
+
+// Splice Method - Deletes array items from starting idx to the end numbers we gave
+
+// let nums = [1,2,3,4,5]
+// nums.splice(2,3) // [1,2]
+// console.log(nums);
+
+// Reverse Method
+
+let numbers = [1,2,3,4,5];
+numbers.reverse();
+console.log(numbers);
