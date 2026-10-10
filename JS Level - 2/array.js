@@ -12,32 +12,32 @@
 
 // Basic Method of array
 
-let names = ["Abis", "Ishant", "Akshat", "Om"]
+// let names = ["Abis", "Ishant", "Akshat", "Om"]
 // console.log(names);
-let ages = [16, 20, 18, 17]
+// let ages = [16, 20, 18, 17]
 // console.log(ages);
 
 // Finding length of an array
-names.length;
+// names.length;
 // console.log(ages.length);
 
 // Adding Item in last of array
-names.push("Afraan")
+// names.push("Afraan")
 // console.log(names);
 
 // Deleting Last Element of array
 // console.log(names);
-names.pop();
+// names.pop();
 // console.log(names);
 
 // Adding element in first place of array
 // console.log(names);
-names.unshift("Kanahaiya")
+// names.unshift("Kanahaiya")
 // console.log(names);
 
 // Deleting first element of array
 // console.log(names);
-names.shift();
+// names.shift();
 // console.log(names);
 
 
@@ -71,18 +71,6 @@ names.shift();
 // sort()
 // reverse()
 
-// Non - Mutable Array - New array banata hai original array change nahi karta
-
-// map()
-// filter()
-// concat()
-// flat()
-// slice()
-
-// Single Value return karta hai.
-
-// find() , findindex(), include(), join(), reduce()
-
 // Splice Method - Deletes array items from starting idx to the end numbers we gave
 
 // let nums = [1,2,3,4,5]
@@ -91,6 +79,39 @@ names.shift();
 
 // Reverse Method
 
-let numbers = [1,2,3,4,5];
-numbers.reverse();
-console.log(numbers);
+// let numbers = [1,2,3,4,5];
+// numbers.reverse();
+// console.log(numbers);
+
+// Sorting - making the array into assecnding to decending order
+
+// let arr = [1,3,5,4,2]
+// arr.sort();
+// console.log(arr);
+
+// let arr = [1,10,3];
+// arr.sort((a,b)=>{
+//     return a - b;
+// });
+// console.log(arr);;
+
+// Non - Mutable Array - New array banata hai original array change nahi karta
+
+// map()
+// filter()
+// concat()
+// flat()
+// slice()
+
+// Slice Method
+
+// let arr = [2,3,7,8,9,4,5]
+// let res = arr.slice(2,5);
+// console.log(res);
+
+
+// Single Value return karta hai.
+
+// find() , findindex(), include(), join(), reduce()
+
+
