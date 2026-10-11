@@ -182,3 +182,36 @@
 // let arr = ["I", "Love", "Sidz"];
 // let res = arr.join(" ");
 // console.log(res); // I Love Sidz
+
+// Some Method - works like include checks every value in array and matches it's value
+// let names = ["Abis", "Om", "Ishant", "Akshat"];
+// let res = names.some((val)=>{
+//     return val === "Abis";
+// });
+// console.log(res);
+
+// Every Method - works like some but it should get all values some in the array to give true
+
+// let arr = ["abis","abis","abis"];
+// let res = arr.every((val)=>{
+//     return val === "abis";
+// })
+// console.log(res);
+
+// Reduce Method - used to calculate
+
+// Without Reduce
+
+// let arr = [20,30,10,40];
+// let sum = 0;
+// for(let i = 0; i<arr.length;i++){
+//     sum += arr[i];
+// }
+// console.log(sum);
+
+// With Reduce
+let arr = [2,3,1,4];
+let res = arr.reduce((accumulator,val)=>{
+    return accumulator += val;
+},0)
+console.log(res);
