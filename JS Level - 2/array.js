@@ -109,9 +109,76 @@
 // let res = arr.slice(2,5);
 // console.log(res);
 
+// Concat Method
+
+// let arr1 = [1,2];
+// let arr2 = [3,4,5];
+// let res = arr1.concat(arr2);
+// console.log(res);
+
+// Map Method - ye kabhi array ki length short nahi kar sakta bas valuse ko manipulate kar sakta hai
+
+// let arr  =  [1,2,3,4,5];
+// let res = arr.map((val)=>{
+//   val = 10;
+//   return val;
+// })
+// console.log(res);
+
+// let arr = [10,20,30,10,40,10,80,10];
+// let res = arr.map((value)=>{
+//     return value === 10;
+// })
+// console.log(res); //  [true, false, false, true, false, true, false, true]
+
+
+// Filter Method - it can reduce array length
+
+// let arr = [10,20,15,30,50,13,12];
+// let res = arr.filter((value)=>{
+//    return value > 15;    
+// })
+// console.log(res);
+
+// Flat Method - convert nested array into simple array
+
+// let nestedArr = [1,2,3,4,[5,6,7,8]];
+// let res = nestedArr.flat(Infinity)
+// console.log(nestedArr);
+// console.log(res);
+
 
 // Single Value return karta hai.
 
 // find() , findindex(), include(), join(), reduce()
 
+// find - only return single value whether there are multiple values
+// let arr = [1,4,5,10,,7,5];
+// let res = arr.find((val)=>{
+//     return val === 5;
+// })
+// console.log(res);
 
+// findindex - return the index of value
+
+// let arr = [1,2,3,4,5];
+// let res = arr.findIndex((val)=>{
+//     return val === 2;
+// })
+// console.log(res);
+
+// include method - find particular value in array
+
+// let array = [1,2,4,56,7,];
+// let res = array.includes(56);
+// console.log(res);
+
+// index of method - return idx of particular value
+// let arr = [1,2,3,4,5]
+// let res = arr.indexOf(3);
+// console.log(res);
+
+// Join Method - joins array
+// let arr = ["I", "Love", "Sidz"];
+// let res = arr.join(" ");
+// console.log(res); // I Love Sidz
